@@ -1,0 +1,173 @@
+/*********************************************
+*
+* Home
+*
+*********************************************/
+
+@font-face {
+	font-family: 'KozGoPro-ExtraLight';
+	src:url('fonts/KozGoPro-ExtraLight.otf');
+	src:url('fonts/KozGoPro-ExtraLight.otf?#iefix') format('embedded-opentype');
+		url('fonts/KozGoPro-ExtraLight.woff') format('woff'),
+		url('fonts/KozGoPro-ExtraLight.ttf') format('truetype'),
+		url('fonts/KozGoPro-ExtraLight.svg#KozGoPro-ExtraLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-family:'KozGoPro-ExtraLight';
+	background:#000;
+	color:#FFF;
+}
+.body{/*width:1349px;*/ width:100%; min-width: 500px; margin:0 auto;}
+.contenido{height:750px;min-width: 1200px;	overflow:hidden;border-top:solid 1px #FFF;border-bottom:solid 1px #FFF;}
+.contenido img{
+	width:100%; min-width: 1200px;
+}
+.loading{
+	position: absolute;
+	top: 575px;
+	width: 503;
+	margin-left: 451.5px;
+}
+.welcome{
+	position: absolute;
+	font-size: 55px;
+	color: #000;
+	top: 617px;
+	width: 938px;
+	margin-left: 205.5px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.welcome:hover{
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FFF, 0 0 20px #000000, 0 0 30px #01a8ff, 0 0 40px #01a8ff, 0 0 50px #01a8ff, 0 0 75px #01a8ff;
+}
+.welcome a{
+	color:#000;
+	text-decoration:none;
+}
+.blancoN{
+	margin-top: -843px;
+}
+
+
+
+/*********************************************
+*
+* Nosotros
+*
+*********************************************/
+
+.miv{position: absolute;font-size: 22px;top: 225px;width: 45%;min-width: 638px;left: 22%;margin: 0px 0px 0 94px;border: solid 2px #FFF;padding: 25px;height: 600px;}
+.conmiv{
+	height: 92%;
+	background: rgba(0, 0, 0, 0.5);
+	padding:25px;
+	text-align:justify;
+}
+.conmiv div{
+	height:50%;
+}
+.mision span, .vision span{
+	font-size:18px;
+}
+
+
+/*********************************************
+*
+* Menu
+*
+*********************************************/
+
+.option{width:200px;position:absolute;background: rgba(0, 0, 0, 0.77);}
+.option ul{list-style:none;font-size:20px;color:#01a8ff;margin-left:0;margin-bottom:0;}
+.option ul li a{line-height: 40px;/*padding-left: 30px;*/ padding:3px 12px;  display:block;}/*background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;*/
+.option ul li a:hover{color:#FFF !important;background:rgba(1, 168, 255, 0.56); /* Safari 5.1 to 6.0 */background: rgba(1, 168, 255, 0.56); /* Opera 11.1 to 12.0 */background: rgba(1, 168, 255, 0.56); /* Firefox 3.6 to 15 */ background: rgba(1, 168, 255, 0.56); /* Standard syntax */}
+.option ul li a{text-decoration:none;color:#01a8ff;}
+.option ul li a:hover{color:#FFF;}
+.option 
+
+.opL{display:none;}
+.menOp{cursor:pointer;font-size: 23px;text-align: center;margin-top: 10px;margin-bottom: 10px;}
+
+/* secccion agregada por  */
+.option li ul {display:none;position:relative;min-width:140px;}
+.option li:hover > ul {display:block;}
+.option li ul li {position:relative; left: 25px; padding: 0px 25px 0px 0px;
+}
+.option li lu li a{paddin:1px 1px;}
+.option li ul li ul {right:-140px;top:0px;}
+/*********************************************
+*
+* Header
+*
+*********************************************/
+
+.lang{
+	width:100%;
+}
+.lang p{
+	float: right;
+	margin-right: 30px;
+}
+.flag{
+	margin-top: 90px;
+	margin-bottom: 5px;
+	float: right;
+	margin-right: 30px;
+}
+.flag img{
+	width:30px;
+	margin-right:5px;
+	cursor:pointer;
+	margin-top:-5px;
+}
+.flag input{
+	margin-top:10px;
+}
+.reg{
+	font-size:23px;
+}
+.reg input{
+	background: #131516;
+	border: none;
+	border-radius: 0;
+	margin-right: 30px;
+	width: 150px;
+}
+
+
+
+
+/*********************************************
+*
+* Footer
+*
+*********************************************/
+
+.copyright p{
+	text-align:center;
+	margin-bottom:20px;
+}
+.dom{
+	color:#ff0600;
+}
+.cont{
+	color:#01a8ff;
+}
+.search{
+	position: absolute;
+	background: #2a2c3e;
+	padding: 20px;
+	margin-top: -60px;
+	width: 200px;
+}
+.search img{
+	width:20px;
+	margin-left: 25px;
+}
