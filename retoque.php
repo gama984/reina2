@@ -1,4 +1,4 @@
-<?php $page ='nosotros'; ?>
+<?php $page ='retoque'; ?>
 <?php include('includes/header.php'); ?>
 	
     
@@ -15,22 +15,11 @@
         
         	<div class="conmiv">
             
-            	<div class="mision">
-                	<?= $nosotros[0]  ?><br><br>
-                    <span><?=$nosotros[1]?></span>
-                    
-                </div>
-                
-                <div class="vision">
-                	<?=$nosotros[2]?><br><br>
-                    <span><?=$nosotros[3]?></span>
-                    
-                </div>
+            	
             	
             </div>
         
         </div>
-        
     </div>
     <!-- Fin -->
 

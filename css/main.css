@@ -59,13 +59,8 @@ body{
 *
 *********************************************/
 
-.miv{position: absolute;font-size: 22px;top: 225px;width: 45%;min-width: 638px;left: 22%;margin: 0px 0px 0 94px;border: solid 2px #FFF;padding: 25px;height: 600px;}
-.conmiv{
-	height: 92%;
-	background: rgba(0, 0, 0, 0.5);
-	padding:25px;
-	text-align:justify;
-}
+.miv{position: absolute;font-size: 22px;top: 225px;width: 56%;min-width: 780px;max-width: 809px;left: 20%;/*margin: 0px 0px 0 94px;*/border: solid 2px #FFF;padding: 10px;height: 600px;}
+.conmiv{height: 92%;/*background: rgba(0, 0, 0, 0.5);*/background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
 .conmiv div{
 	height:50%;
 }
@@ -90,10 +85,16 @@ body{
 .option ul li a:hover{color:#FFF !important;background:rgba(1, 168, 255, 0.56); /* Safari 5.1 to 6.0 */background: rgba(1, 168, 255, 0.56); /* Opera 11.1 to 12.0 */background: rgba(1, 168, 255, 0.56); /* Firefox 3.6 to 15 */ background: rgba(1, 168, 255, 0.56); /* Standard syntax */}
 .option ul li a{text-decoration:none;color:#01a8ff;}
 .option ul li a:hover{color:#FFF;}
-.option 
+.option ul li a .s{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;/*border-bottom-style: solid;*/border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
+.option ul li a .nos{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;/*border-bottom-style: solid;*/border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
+.option ul li a .port{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;/*border-bottom-style: solid;*/border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
+.option ul li a .faq{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;/*border-bottom-style: solid;*/border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
+.option ul li a .cont{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;/*border-bottom-style: solid;*/border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
+.option ul li a .prov{text-decoration: none;width: 187px;height: 32px;border-top-style: solid;border-bottom-style: solid;border-width: 1px;border-color: rgba(105, 103, 103, 0.45);margin-left: -10px;padding: 5px;line-height: 33px;}
 
 .opL{display:none;}
 .menOp{cursor:pointer;font-size: 23px;text-align: center;margin-top: 10px;margin-bottom: 10px;}
+.menOp .flec{ background:url(../img/page/flecha1.ico);}
 
 /* secccion agregada por  */
 .option li ul {display:none;position:relative;min-width:140px;}
@@ -102,6 +103,12 @@ body{
 }
 .option li lu li a{paddin:1px 1px;}
 .option li ul li ul {right:-140px;top:0px;}
+/*fin de la seccion agregada*/
+
+/*seccion agregada por*/
+
+
+/*fin de la seccion agregada*/
 /*********************************************
 *
 * Header
@@ -171,3 +178,37 @@ body{
 	width:20px;
 	margin-left: 25px;
 }
+
+/********************************** portafolio***********************************/
+.miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: 44px;}
+.miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 52%;height: 516px;margin: 0px 11px 0px 0px;}
+.miv .conmiv .ante{ background:transparent url(../img/page/antes.png) no-repeat -9px -9px;;width:50px;height:30px;} 
+
+/*********************************fin del portafolio****************************/
+
+/********************************menu de servicio*******************************/
+.contenido .paquet{background: rgba(60, 60, 60, 0.72);/*width: 61%;*/max-width: 809px;min-width: 791px;height: 37px;position: absolute;top: 166px;margin: 0px 0px 0px 21.3%;}
+.paquet a.pe{padding: 3px 56px 10px 55px;position: relative;left: 0px;top: 5px;margin: 0 13px 0 13px;}
+.paquet a.mr{padding: 4px 67px 9px 69px;position: relative;left: 8px;top: 6px;}
+.paquet a.pb{/*padding: 4px 24% 15px 26%;*/ background:rgba(0, 136, 204, 0.74);padding: 3px 66px 16px 57px;position: relative;}
+.paquet a.pe:hover{ background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;}
+.paquet a.mr:hover{background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;/*padding: 5px 10% 9px 10%;*/margin-left: 0%;}
+.paquet a.pb:hover{ /*background:rgba(0, 136, 204, 0.74);*/ text-decoration:none;}
+.paquet .pb .pbs{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF;}
+.paquet .div-pb{width: 27%;height: 36px;/* color: rgb(91, 100, 107); */background: rgba(0, 136, 204, 0.74);}
+.paquet .pe{position: relative;/*left: 252px;*/top: -30px;font-size: 18px}
+.paquet .mr{position: relative;left: 252px;top: -30px;font-size: 18px}
+/*************************************seccion video-pe, video-mr***************************/
+.paquet .pb-video{padding: 5px 10% 9px 10%;position: relative;left: -8px;top: 6px;}
+.paquet	 a.pb-video:hover{background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;/*padding: 5px 10% 9px 10%;*/margin-left: 0%;}
+.paquet  a.pb-video{padding: 4px 59px 9px 59px;position: relative;left: 0px;top: 6px;font-size: 18px;}
+.paquet .pe-video{ background:rgba(0, 136, 204, 0.74);padding: 3px 10% 16px 8%;position: relative;margin-left: 6px;}
+.paquet .pe-video:hover{text-decoration:none;}
+.paquet .pe-video .pes{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF;}
+.paquet .mr-video .mrs{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF; }
+.paquet a.mr-video:hover{text-decoration:none;}
+.paquet .mr-video{background:rgba(0, 136, 204, 0.74);padding: 3px 10% 16px 8%;position: relative;margin-left: 6px;}
+
+
+
+/*******************************fin del paquete de servico**********************/
