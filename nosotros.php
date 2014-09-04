@@ -16,16 +16,9 @@
         	<div class="conmiv">
             
             	<div class="mision">
-                	<?= $nosotros[0]  ?><br><br>
+                	<p><?= $nosotros[0]?></p>
                     <span><?=$nosotros[1]?></span>
-                    
-                </div>
-                
-                <div class="vision">
-                	<?=$nosotros[2]?><br><br>
-                    <span><?=$nosotros[3]?></span>
-                    
-                </div>
+                </div> 
             	
             </div>
         

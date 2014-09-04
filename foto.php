@@ -12,17 +12,15 @@
 			
 		?>
     	<div class="paquet">
-<a href="foto.php" class="pb"> <span class="pbs">paquete basico</span></a>
-<a href="foto-pe.php" class="pe">paquete especial</a>
-<a href="foto-mr.php" class="mr">mesa de regalo</a>
-
-</div>
+            <a href="foto.php" class="pb"> <span class="pbs">paquete basico</span></a>
+            <a href="foto-pe.php" class="pe">paquete especial</a>
+            <a href="foto-mr.php" class="mr">mesa de regalo</a>
+		</div>
+        
         <div class="miv">
         
         	<div class="conmiv">
-            
-            	
-            	
+
             </div>
         
         </div>

@@ -6,7 +6,7 @@
         	<ul>
             	<li><a href="#">Fotografia</a></li>
            		<li><a href="#">Video</a></li>
-            	<li><a href="portafolios.php">Retoque</a></li>
+            	<li><a href="retoquep.php">Retoque</a></li>
             </ul>
             
           </li>
