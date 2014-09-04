@@ -1,4 +1,4 @@
-<?php $page ='portafolios'; ?>
+<?php $page ='nosotros'; ?>
 <?php include('includes/header.php'); ?>
 	
     
@@ -14,21 +14,15 @@
         <div class="miv">
         
         	<div class="conmiv">
-            <div class="ante"> </div>
-            <div class="despu"></div>
-            	<div class="comp">
-                <div class="antes">
+            
+            	
                 
-                </div>
-                	
-                    <div class="despues">
-                    </div>
-          
-                </div>
+              
             	
             </div>
         
         </div>
+        
     </div>
     <!-- Fin -->
 

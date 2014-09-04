@@ -2,7 +2,7 @@
 	<div class="menOp">Menu <div class="flec"></div></div>
     <ul class="opL">
         <li><a href="nosotros.php"><div class="nos"> Nosotros</div></a></li>
-        <li><a href="#"><div class="port">Portafolios</div></a>
+        <li ><a href="#" ><div class="port" >Portafolios</div><div class="flettt"></div></a>
         	<ul>
             	<li><a href="#">Fotografia</a></li>
            		<li><a href="#">Video</a></li>
@@ -10,9 +10,9 @@
             </ul>
             
           </li>
-        <li><a href="servicios.php"> <div class="s">Servicios</div></a>
+        <li><a href="servicios.php"> <div class="s">Servicios</div><div class="flett"></div></a>
         	<ul>
-            	<li><a href="Fotografia.php">Fotografia</a></li>
+            	<li><a href="foto.php">Fotografia</a></li>
            		<li><a href="video.php">Video</a></li>
             	<li><a href="retoque.php">Retoque</a></li>
             </ul>
