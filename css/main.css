@@ -194,8 +194,13 @@ body{
 .miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: -86px;}
 .miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 516px;margin: 0px 11px 0px 0px;}
 .miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 516px;border: solid 1px #F7F7F7;}
+<<<<<<< HEAD
 .miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -22px -5px;width: 219px;height: 67px;left: 74px;top: -16px;position: relative;} 
 .miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;left: 460px;/* right: -56px; */top: -82px;position: relative;} 
+=======
+.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;margin-left: 98px;top: 20px;position: absolute;} 
+.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;margin-left: 455px;top: 16px;position: absolute;} 
+>>>>>>> ad7f760e197be71065a485371e624f4ea122e523
 
 .ra{background:url(../img/page/ra.jpg); background-size:100%;}
 .rd{background:url(../img/page/rd.jpg); background-size:100%;}
@@ -232,3 +237,39 @@ body{
 .contenido .miv .conmiv .contpa{}
 
 /*******************************fin del paquete de servico**********************/
+
+
+/*********************************************
+*
+* Retoque
+*
+*********************************************/
+.backn{
+	height: 520px;
+	width: 761px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.85);
+	top: 84px;
+	z-index: 1;
+}
+.retp{
+	height:92% !important;
+}
+
+/*********************************************
+*
+* Portafolio - Foto
+*
+*********************************************/
+.portafoto{
+	border:solid 1px #FFF;
+	margin:20px;
+	height:85%;
+}
+.porta{
+	width: 237px;
+	float: left;
+	border: solid 1px #fff;
+	opacity: 0.5;
+	cursor:pointer;
+}
