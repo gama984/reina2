@@ -22,7 +22,7 @@ class consultas{
 		/*** mysql password ***/
 		$this->password = '';
 		/*** mysql BD ***/
-		$this->bd= 'peacock';
+		$this->bd= 'reinabla_pick';
 		$this->lastID= 0;
 	}
 	private function conectar(){
