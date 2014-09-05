@@ -20,9 +20,9 @@ class consultas{
 		/*** mysql username ***/
 		$this->username = 'root';
 		/*** mysql password ***/
-		$this->password = '';
+		$this->password = 'ivanpoot';
 		/*** mysql BD ***/
-		$this->bd= 'reinabla_pick';
+		$this->bd= 'peacock';
 		$this->lastID= 0;
 	}
 	private function conectar(){
