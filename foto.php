@@ -20,9 +20,15 @@
         <div class="miv">
         
         	<div class="conmiv">
-            
-            	
-            	
+            <div class="contpa">
+            	<span class="pa1">Paquete 1</span>
+                <span class="tc1"> - Tiempo de Cobertura 1:30 hrs. de foto sesión   Incluye:</span>
+<span class=""-1 CD personalizado con 150 fotos seleccionadas en alta resolución -Retoque básico en 75 de las fotos de su selección 
+-1DVD personalizado y musicalizado de las fotos retocadas en alta resolución (slide show) 
+-1 Álbum impreso 8x6" con 30 de las fotos retocadas, en alta resolución 
+-4 fotos sorpresa en alta resolución con retoque artístico 
+COSTO $750 USD
+            	</div>
             </div>
         
         </div>

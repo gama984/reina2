@@ -199,7 +199,7 @@ body{
 .paquet .div-pb{width: 27%;height: 36px;/* color: rgb(91, 100, 107); */background: rgba(0, 136, 204, 0.74);}
 .paquet .pe{position: relative;/*left: 252px;*/top: -30px;font-size: 18px}
 .paquet .mr{position: relative;left: 252px;top: -30px;font-size: 18px}
-/*************************************seccion video-pe, video-mr***************************/
+/*************************************seccion video-pe, video-mr,foto,foto-pe***************************/
 .paquet .pb-video{padding: 5px 10% 9px 10%;position: relative;left: -8px;top: 6px;}
 .paquet	 a.pb-video:hover{background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;/*padding: 5px 10% 9px 10%;*/margin-left: 0%;}
 .paquet  a.pb-video{padding: 4px 59px 9px 59px;position: relative;left: 0px;top: 6px;font-size: 18px;}
@@ -209,7 +209,9 @@ body{
 .paquet .mr-video .mrs{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF; }
 .paquet a.mr-video:hover{text-decoration:none;}
 .paquet .mr-video{background:rgba(0, 136, 204, 0.74);padding: 3px 10% 16px 8%;position: relative;margin-left: 6px;}
-
+.contenido .miv .conmiv .pa1{ font-size:23px;}
+.contenido .miv .conmiv .tc1{position: relative;top: 26px;left: -116px;margin: 17px;}
+.contenido .miv .conmiv .contpa{}
 
 
 /*******************************fin del paquete de servico**********************/
