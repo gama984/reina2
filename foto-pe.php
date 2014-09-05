@@ -1,4 +1,4 @@
-<?php $page ='video'; ?>
+<?php $page ='foto'; ?>
 <?php include('includes/header.php'); ?>
 	
     
@@ -12,18 +12,22 @@
 			
 		?>
         
-    	<div class="paquet">
-            <a href="foto.php" class="pb-video"> paquete basico</a>
-            <a href="foto-pe.php" class="pe-video"><span class="pes">paquete especial</span></a>
-            <a href="foto-mr.php" class="mr">mesa de regalo</a>
-		</div>
-        
-        <div class="miv">
-        
-        	<div class="conmiv">
 
+        <div class="almiv">
+        
+        	<div class="paquet">
+                <a href="foto.php" class="pb-video"> paquete basico</a>
+                <a href="foto-pe.php" class="pe-video"><span class="pes">paquete especial</span></a>
+                <a href="foto-mr.php" class="mr">mesa de regalo</a>
             </div>
         
+            <div class="miv">
+            
+                <div class="conmiv">
+    
+                </div>
+            
+            </div>
         </div>
     </div>
     <!-- Fin -->

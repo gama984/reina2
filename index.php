@@ -7,11 +7,13 @@
     
     	<?php
 			$tag->print_img_tag('page/bride.jpg');
-			$tag->print_img_tag('page/brideb.jpg','blancoN');
+			echo '<div class="imB contenido">';
+				$tag->print_img_tag('page/brideb.jpg');
+			echo '</div>';
 		?>
         
         <div class="welcome"><a href="nosotros.php"><?=$index[0]?></a></div>
-        <div class="loading"></div>
+        <div class="cent"><div class="loading"></div></div>
         
     </div>
     <!-- Fin -->
