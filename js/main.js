@@ -23,7 +23,7 @@ $(document).ready(function(e) {
 	
 	$(window).load(function(){
 	  setTimeout(function(){$('.loading').html("");}, 1200);
-	  $('.blancoN').fadeOut(3000);
+	  $('.imB').fadeOut(3000);
 	});
 	
 	$('.menOp').click(function(){

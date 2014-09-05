@@ -1,5 +1,7 @@
 <header>
 	
+    <a href="index.php"><div class="logo"></div></a>
+    
    <div class="lang">
    		<div class="flag">
         

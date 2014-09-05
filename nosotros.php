@@ -10,25 +10,19 @@
 			include 'includes/listaOp.php';
 			$tag->print_img_tag('page/bg.jpg');
 		?>
-    	
-        <div class="miv">
-        
-        	<div class="conmiv">
+    	<div class="almiv">
+            <div class="miv">
             
-            	<div class="mision">
-                	<?= $nosotros[0]  ?><br><br>
-                    <span><?=$nosotros[1]?></span>
-                    
-                </div>
+                <div class="conmiv">
                 
-                <div class="vision">
-                	<?=$nosotros[2]?><br><br>
-                    <span><?=$nosotros[3]?></span>
+                    <div class="mision">
+                        <p><?= $nosotros[0]?></p>
+                        <span><?=$nosotros[1]?></span>
+                    </div> 
                     
                 </div>
-            	
+            
             </div>
-        
         </div>
         
     </div>

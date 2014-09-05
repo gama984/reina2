@@ -22,21 +22,23 @@ body{
 .body{/*width:1349px;*/ width:100%; min-width: 500px; margin:0 auto;}
 .contenido{height:750px;min-width: 1200px;	overflow:hidden;border-top:solid 1px #FFF;border-bottom:solid 1px #FFF;}
 .contenido img{
-	width:100%; min-width: 1200px;
+	width:100%;/* min-width: 1200px;*/
 }
 .loading{
+	width:500px;
+	margin:0 auto;
+}
+.cent{
 	position: absolute;
 	top: 575px;
-	width: 503;
-	margin-left: 451.5px;
+	width: 100%;
 }
 .welcome{
 	position: absolute;
 	font-size: 55px;
 	color: #000;
 	top: 617px;
-	width: 938px;
-	margin-left: 205.5px;
+	width: 100%;
 	text-align: center;
 	letter-spacing: 5px;
 }
@@ -47,8 +49,10 @@ body{
 	color:#000;
 	text-decoration:none;
 }
-.blancoN{
-	margin-top: -843px;
+.imB{
+	position: absolute;
+	top: 144px;
+	width: 100%;
 }
 
 
@@ -58,15 +62,12 @@ body{
 * Nosotros
 *
 *********************************************/
-
-.miv{position: absolute;font-size: 22px;top: 225px;width: 56%;min-width: 780px;max-width: 809px;left: 20%;/*margin: 0px 0px 0 94px;*/border: solid 2px #FFF;padding: 10px;height: 600px;}
-.conmiv{height: 92%;/*background: rgba(0, 0, 0, 0.5);*/background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
-.conmiv div{
-	height:50%;
-}
-.mision span, .vision span{
-	font-size:18px;
-}
+.almiv{position: absolute;top: 225px;width: 100%;}
+.miv{font-size: 22px;min-width: 780px;max-width: 809px;border: solid 2px #FFF;padding: 10px;height: 600px;margin: 0 auto;}
+.conmiv{height: 92%;background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
+.mision span{font-size:18px;}
+.mision p{text-align:center; margin-bottom:60px; text-decoration:underline; letter-spacing:10px;}
+.espm{height:35px;}
 
 
 /*********************************************
@@ -75,7 +76,7 @@ body{
 *
 *********************************************/
 
-.option{width:200px;position:absolute;background: rgba(0, 0, 0, 0.77);}
+.option{width:200px;position:absolute;background: rgba(0, 0, 0, 0.77); z-index:5;}
 .option ul{list-style:none;font-size:20px;color:#01a8ff;margin-left:0;margin-bottom:0; transition:opacity 0.3s ease-out, visibility 0.1s 0.1s linear;}
 .option ul li a{line-height: 40px;/*padding-left: 30px;*/ padding:3px 12px;  display:block;}/*background-color:#000;
 				color:#fff;
@@ -148,7 +149,16 @@ body{
 	margin-right: 30px;
 	width: 150px;
 }
-
+.logo{
+	width: 300px;
+	height: 130px;
+	position: absolute;
+	background: url(../img/page/logo.jpg);
+	background-size: 85%;
+	margin-top: 6px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
 
 
 
@@ -182,13 +192,18 @@ body{
 
 /********************************** portafolio***********************************/
 .miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: 44px;}
-.miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 52%;height: 516px;margin: 0px 11px 0px 0px;}
+.miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 516px;margin: 0px 11px 0px 0px;}
+.miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 516px;border: solid 1px #F7F7F7;}
 .miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;left: 98px;top: 15px;position: absolute;} 
 .miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;/* left: 337px; */right: 103px;top: 13px;position: absolute;} 
+
+.ra{background:url(../img/page/ra.jpg); background-size:100%;}
+.rd{background:url(../img/page/rd.jpg); background-size:100%;}
+
 /*********************************fin del portafolio****************************/
 
 /********************************menu de servicio*******************************/
-.contenido .paquet{background: rgba(60, 60, 60, 0.72);/*width: 61%;*/max-width: 809px;min-width: 791px;height: 37px;position: absolute;top: 166px;margin: 0px 0px 0px 21.3%;}
+.contenido .paquet{background: rgba(60, 60, 60, 0.72);max-width: 800px;min-width: 791px;height: 37px;margin: 0 auto;margin-top: -59px;margin-bottom: 25px;}
 .paquet a.pe{padding: 3px 56px 10px 55px;position: relative;left: 0px;top: 5px;margin: 0 13px 0 13px;}
 .paquet a.mr{padding: 4px 67px 9px 69px;position: relative;left: 8px;top: 6px;}
 .paquet a.pb{/*padding: 4px 24% 15px 26%;*/ background:rgba(0, 136, 204, 0.74);padding: 3px 66px 16px 57px;position: relative;}
@@ -212,6 +227,5 @@ body{
 .contenido .miv .conmiv .pa1{ font-size:23px;}
 .contenido .miv .conmiv .tc1{position: relative;top: 26px;left: -116px;margin: 17px;}
 .contenido .miv .conmiv .contpa{}
-
 
 /*******************************fin del paquete de servico**********************/

@@ -11,15 +11,18 @@
 			$tag->print_img_tag('page/bg.jpg');
 		?>
     	
-        <div class="miv">
-        
-        	<div class="conmiv">
+        <div class="almiv">
+            <div class="miv">
             
-            	
-            	
+                <div class="conmiv">
+                
+                    
+                    
+                </div>
+            
             </div>
-        
         </div>
+        
     </div>
     <!-- Fin -->
 

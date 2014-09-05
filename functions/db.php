@@ -16,13 +16,13 @@ class consultas{
 	
 	function __construct(){		
 		/*** mysql hostname ***/
-		$this->hostname = 'localhost';
+		$this->hostname = '127.0.0.1';
 		/*** mysql username ***/
 		$this->username = 'root';
 		/*** mysql password ***/
 		$this->password = '';
 		/*** mysql BD ***/
-		$this->bd= 'reinabla_pick';
+		$this->bd= 'peacock';
 		$this->lastID= 0;
 	}
 	private function conectar(){

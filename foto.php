@@ -1,4 +1,4 @@
-<?php $page ='video'; ?>
+<?php $page ='foto'; ?>
 <?php include('includes/header.php'); ?>
 	
     
@@ -11,14 +11,9 @@
 			$tag->print_img_tag('page/bg.jpg');
 			
 		?>
-    	<div class="paquet">
-<a href="foto.php" class="pb"> <span class="pbs">paquete basico</span></a>
-<a href="foto-pe.php" class="pe">paquete especial</a>
-<a href="foto-mr.php" class="mr">mesa de regalo</a>
-
-</div>
-        <div class="miv">
+    	
         
+<<<<<<< HEAD
         	<div class="conmiv">
             <div class="contpa">
             	<span class="pa1">Paquete 1</span>
@@ -29,8 +24,23 @@
 -4 fotos sorpresa en alta resolución con retoque artístico 
 COSTO $750 USD
             	</div>
+=======
+        <div class="almiv">
+        
+        	<div class="paquet">
+                <a href="foto.php" class="pb"> <span class="pbs">paquete basico</span></a>
+                <a href="foto-pe.php" class="pe">paquete especial</a>
+                <a href="foto-mr.php" class="mr">mesa de regalo</a>
+>>>>>>> 652895d320d3fd27c559f7acb8e66966169bd9c5
             </div>
         
+            <div class="miv">
+            
+                <div class="conmiv">
+    
+                </div>
+            
+            </div>
         </div>
     </div>
     <!-- Fin -->
