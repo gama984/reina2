@@ -191,11 +191,11 @@ body{
 }
 
 /********************************** portafolio***********************************/
-.miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: 44px;}
+.miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: -86px;}
 .miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 516px;margin: 0px 11px 0px 0px;}
 .miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 516px;border: solid 1px #F7F7F7;}
-.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;left: 98px;top: 15px;position: absolute;} 
-.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;/* left: 337px; */right: 103px;top: 13px;position: absolute;} 
+.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -22px -5px;width: 219px;height: 67px;left: 74px;top: -16px;position: relative;} 
+.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;left: 460px;/* right: -56px; */top: -82px;position: relative;} 
 
 .ra{background:url(../img/page/ra.jpg); background-size:100%;}
 .rd{background:url(../img/page/rd.jpg); background-size:100%;}
@@ -224,8 +224,11 @@ body{
 .paquet .mr-video .mrs{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF; }
 .paquet a.mr-video:hover{text-decoration:none;}
 .paquet .mr-video{background:rgba(0, 136, 204, 0.74);padding: 3px 10% 16px 8%;position: relative;margin-left: 6px;}
-.contenido .miv .conmiv .pa1{ font-size:23px;}
-.contenido .miv .conmiv .tc1{position: relative;top: 26px;left: -116px;margin: 17px;}
+
+.contenido .miv .conmiv .tc1{text-align: -webkit-auto;font-size: 18px;line-height: 20pt;width: 553px;}
+.contenido .miv .conmiv .tc2{position: relative;left: 629px;top: 9px;}
+.contenido .miv .conmiv .trian{width: 0;height: 0;border-bottom: 12px solid rgba(0, 136, 204, 0.74);border-left: 12px solid transparent;position: relative;left: 747px;}
+.contenido .miv .conmiv .tc3{border-bottom: solid 2px rgba(0, 136, 204, 0.74);}
 .contenido .miv .conmiv .contpa{}
 
 /*******************************fin del paquete de servico**********************/
