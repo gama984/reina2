@@ -4,7 +4,7 @@
         <li><a href="nosotros.php"><div class="nos"> Nosotros</div></a></li>
         <li ><a href="#" ><div class="port" >Portafolios</div><div class="flettt"></div></a>
         	<ul>
-            	<li><a href="#">Fotografia</a></li>
+            	<li><a href="fotografia.php">Fotografia</a></li>
            		<li><a href="#">Video</a></li>
             	<li><a href="retoquep.php">Retoque</a></li>
             </ul>

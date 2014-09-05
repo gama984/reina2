@@ -64,7 +64,7 @@ body{
 *********************************************/
 .almiv{position: absolute;top: 225px;width: 100%;}
 .miv{font-size: 22px;min-width: 780px;max-width: 809px;border: solid 2px #FFF;padding: 10px;height: 600px;margin: 0 auto;}
-.conmiv{height: 92%;background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
+.conmiv{height: 85%;background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
 .mision span{font-size:18px;}
 .mision p{text-align:center; margin-bottom:60px; text-decoration:underline; letter-spacing:10px;}
 .espm{height:35px;}
@@ -194,8 +194,8 @@ body{
 .miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: 44px;}
 .miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 516px;margin: 0px 11px 0px 0px;}
 .miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 516px;border: solid 1px #F7F7F7;}
-.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;left: 98px;top: 15px;position: absolute;} 
-.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;/* left: 337px; */right: 103px;top: 13px;position: absolute;} 
+.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;margin-left: 98px;top: 20px;position: absolute;} 
+.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;margin-left: 455px;top: 16px;position: absolute;} 
 
 .ra{background:url(../img/page/ra.jpg); background-size:100%;}
 .rd{background:url(../img/page/rd.jpg); background-size:100%;}
@@ -227,3 +227,38 @@ body{
 
 
 /*******************************fin del paquete de servico**********************/
+
+
+/*********************************************
+*
+* Retoque
+*
+*********************************************/
+.backn{
+	height: 520px;
+	width: 761px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.85);
+	top: 84px;
+	z-index: 1;
+}
+.retp{
+	height:92% !important;
+}
+
+/*********************************************
+*
+* Portafolio - Foto
+*
+*********************************************/
+.portafoto{
+	border:solid 1px #FFF;
+	margin:20px;
+}
+.porta{
+	width: 237px;
+	float: left;
+	border: solid 1px #fff;
+	opacity: 0.5;
+	cursor:pointer;
+}
