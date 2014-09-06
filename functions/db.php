@@ -14,28 +14,29 @@ class consultas{
 	
 	public $lastID;
 	
-//	function __construct(){		
-//		/*** mysql hostname ***/
-//		$this->hostname = '127.0.0.1';
-//		/*** mysql username ***/
-//		$this->username = 'root';
-//		/*** mysql password ***/
-//		$this->password = 'ivanpoot';
-//		/*** mysql BD ***/
-//		$this->bd= 'peacock';
-//		$this->lastID= 0;
-//	}
-		function __construct(){		
+	function __construct(){		
 		/*** mysql hostname ***/
 		$this->hostname = '127.0.0.1';
 		/*** mysql username ***/
 		$this->username = 'root';
 		/*** mysql password ***/
-		$this->password = '';
+		$this->password = 'ivanpoot';
 		/*** mysql BD ***/
-		$this->bd= 'reinabla_pick';
+		$this->bd= 'peacock';
 		$this->lastID= 0;
 	}
+		//function __construct(){		
+//		/*** mysql hostname ***/
+//		$this->hostname = '127.0.0.1';
+//		/*** mysql username ***/
+//		$this->username = 'root';
+//		/*** mysql password ***/
+//		$this->password = '';
+//		/*** mysql BD ***/
+//		$this->bd= 'reinabla_pick';
+//		$this->lastID= 0;
+//	}
+	
 	private function conectar(){
 		try {
 		$this->conection = new PDO("mysql:host=$this->hostname;dbname=$this->bd", $this->username, $this->password, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES  \'UTF8\''));
