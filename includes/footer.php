@@ -7,7 +7,7 @@
 						$vis = $qty['SUM(qty)'];
 					?>
                 	Copyright 2014 © <span class="dom">www.reinablancastudio.com</span> <?=$footer[0]?> <br />
-                    <?=$footer[1]?> <span class="cont"><?=$vis?></span><span class="polit"><a href="politicas.php"> *<?=$politicas[0]?></a></span>
+                    <span class="polit"><a href="politicas.php"> *<?=$politicas[0]?></a> - </span> <?=$footer[1]?> <span class="cont"><?=$vis?></span>
                 </p>
                 
                 <?php if($page != 'index'){?>

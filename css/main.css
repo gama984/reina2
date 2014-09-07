@@ -63,7 +63,41 @@ body{
 	top: 144px;
 	width: 100%;
 }
-
+.homr{
+	background: url(../img/page/home.png);
+	background-size: 100%;
+	width: 442px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: -246px;
+	background-repeat: no-repeat;
+}
+.bord{
+	width: 130px;
+	background-size: 100% !important;
+	background-repeat: no-repeat !important;
+	height: 150px;
+	position: absolute;
+	z-index: 10;
+	margin: 5px;
+	opacity: 0.7;
+}
+.bord1{
+	background: url(../img/page/esquina1.png);
+}
+.bord2{
+	background: url(../img/page/esquina2.png);
+	margin-top: 615px;
+}
+.bord3{
+	background: url(../img/page/esquina3.png);
+	right:0;
+}
+.bord4{
+	background: url(../img/page/esquina4.png);
+	right:0;
+	margin-top: 615px;
+}
 
 
 /*********************************************
@@ -85,7 +119,7 @@ body{
 *
 *********************************************/
 
-.option{width:200px;position:absolute;background: rgba(0, 0, 0, 0.77); z-index:5;}
+.option{width:200px;position:absolute;background: rgba(0, 0, 0, 0.77); z-index:11;}
 .option ul{list-style:none;font-size:20px;color:#01a8ff;margin-left:0;margin-bottom:0; transition:opacity 0.3s ease-out, visibility 0.1s 0.1s linear;}
 .option ul li a{line-height: 40px;/*padding-left: 30px;*/ padding:3px 12px;  display:block;}/*background-color:#000;
 				color:#fff;
@@ -162,9 +196,9 @@ body{
 	width: 300px;
 	height: 130px;
 	position: absolute;
-	background: url(../img/page/logo.jpg);
-	background-size: 85%;
-	margin-top: 6px;
+	background: url(../img/page/logo.png);
+	background-size: 90%;
+	margin-top: 20px;
 	background-repeat: no-repeat;
 	margin-left: 50px;
 }
@@ -203,13 +237,11 @@ body{
 }
 
 /********************************** portafolio***********************************/
-.miv .conmiv .comp{border: solid 1px #FFF;height: 518px;width: 100%;position:relative;top: -87px;opacity: 0.2;}
-.miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 516px;margin: 0px 11px 0px 0px;}
-.miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 516px;border: solid 1px #F7F7F7;}
-.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -22px -5px;width: 219px;height: 67px;left: 74px;top: -16px;position: relative;} 
-.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;left: 460px;/* right: -56px; */top: -82px;position: relative;} 
-.miv .conmiv .ante{background: transparent url(../img/page/antes.png) no-repeat -9px -9px;width: 219px;height: 58px;margin-left: 25px;position: relative;} 
-.miv .conmiv .despu{background: transparent url(../img/page/despues.png) no-repeat -15px 0px;width: 215px;height: 73px;margin-left: 10px;position: relative;} 
+.miv .conmiv .comp{border: solid 1px #FFF;height: 500px;width: 100%;position:relative;top: -87px;opacity: 0.2;}
+.miv .conmiv .comp .antes{border: solid 1px #F7F7F7;width: 50%;height: 498px;margin: 0px 11px 0px 0px;}
+.miv .conmiv .comp .despues{position: absolute;width: 50%;top: 0px;right: 0;height: 498px;border: solid 1px #F7F7F7;} 
+.miv .conmiv .ante{width: 382px;height: 58px;position: relative;font-family: jey;font-size: 68px;text-decoration: underline;margin-bottom: 11px;text-align: center;} 
+.miv .conmiv .despu{left: 460px; top: -82px;width: 382px;height: 58px;position: relative;font-family: jey;font-size: 68px;text-decoration: underline;margin-bottom: 11px;text-align: center;margin-left: -81px;margin-top: 24px;}
 
 .ra{background:url(../img/page/ra.jpg); background-size:100%;}
 .rd{background:url(../img/page/rd.jpg); background-size:100%;}

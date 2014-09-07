@@ -11,12 +11,15 @@ if(isset($_POST['setLang'])){
 
 //texto segun idioma
 function texto(){
+	
 	$_SESSION["texto"]["menu"]=array();
 	$_SESSION["texto"]["footer"]=array();
 	$_SESSION["texto"]["index"]=array();
 	$_SESSION["texto"]["nosotros"]=array();
 	$_SESSION["texto"]["portafolios"]=array();
 	$_SESSION["texto"]["politicas"]=array();
+	$_SESSION["texto"]["retoquep"]=array();
+	
 	$conn = new consultas();
 	$txt = $conn->all('page_text');
 	foreach($txt as $row){
@@ -38,6 +41,9 @@ function texto(){
 							break;
 			case "politicas": $pos=count($_SESSION["texto"]["politicas"]);
 							$_SESSION["texto"]["politicas"][$pos]=$row["texto_".$_SESSION['idioma']];
+							break;
+			case "retoquep": $pos=count($_SESSION["texto"]["retoquep"]);
+							$_SESSION["texto"]["retoquep"][$pos]=$row["texto_".$_SESSION['idioma']];
 							break;
 			default:		$_SESSION["texto"][$row["name"]]=$row["texto_".$_SESSION['idioma']];
 							break;

@@ -75,6 +75,7 @@
 			$nosotros    = $_SESSION["texto"]["nosotros"];
 			$portafolios = $_SESSION["texto"]["portafolios"];
 			$politicas   = $_SESSION["texto"]["politicas"];
+			$retoquep   = $_SESSION["texto"]["retoquep"];
 			
 		?>
         <link href='<?php $tag->icon();?>' rel='icon' type='image/x-icon'/>
