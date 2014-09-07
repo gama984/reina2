@@ -4,6 +4,11 @@
     
     <!-- Inicia -->
     <div class="contenido">
+    
+    	<div class="bord bord1"></div>
+        <div class="bord bord2"></div>
+        <div class="bord bord3"></div>
+        <div class="bord bord4"></div>
     	
         <?php
 		
