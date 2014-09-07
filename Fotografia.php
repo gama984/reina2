@@ -5,6 +5,11 @@
     <!-- Inicia -->
     <div class="contenido">
     	
+        <div class="bord bord1"></div>
+        <div class="bord bord2"></div>
+        <div class="bord bord3"></div>
+        <div class="bord bord4"></div>
+    	
         <?php
 		
 			include 'includes/listaOp.php';
@@ -12,9 +17,12 @@
 		?>
     	
         <div class="almiv">
-            <div class="miv">
+            <div class="miv mivsd">
             
-                <div class="conmiv portafoto">
+                <div class="conmiv portafoto port">
+                	
+                    <div class="bordt"></div>
+                    <div class="bordb"></div>
                 
                     <div class="porta" id="porta1"><?=$tag->print_img_tag('porta_foto/1.jpg');?></div>
                     <div class="porta" id="porta2"><?=$tag->print_img_tag('porta_foto/2.jpg');?></div>
