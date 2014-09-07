@@ -4,7 +4,10 @@
     
     <!-- Inicia -->
     <div class="contenido">
-    	
+    	<div class="bord bord1"></div>
+        <div class="bord bord2"></div>
+        <div class="bord bord3"></div>
+        <div class="bord bord4"></div>
         <?php
 		
 			include 'includes/listaOp.php';
@@ -15,11 +18,11 @@
         
         <div class="almiv">
         
-        	<div class="paquet">
+        	<!--<div class="paquet">
                 <a href="video.php" class="pb-video"> paquete basico</a>
                 <a href="video-pe.php" class="pe-video"><span class="pes">paquete especial</span></a>
                 <a href="video-mr.php" class="mr">mesa de regalo</a>
-            </div>
+            </div>-->
         
             <div class="miv">
             

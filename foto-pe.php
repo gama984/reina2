@@ -4,6 +4,10 @@
     
     <!-- Inicia -->
     <div class="contenido">
+    <div class="bord bord1"></div>
+        <div class="bord bord2"></div>
+        <div class="bord bord3"></div>
+        <div class="bord bord4"></div>
     	
         <?php
 		
@@ -15,11 +19,11 @@
 
         <div class="almiv">
         
-        	<div class="paquet">
+        	<!--<div class="paquet">
                 <a href="foto.php" class="pb-video"> paquete basico</a>
                 <a href="foto-pe.php" class="pe-video"><span class="pes">paquete especial</span></a>
                 <a href="foto-mr.php" class="mr">mesa de regalo</a>
-            </div>
+            </div>-->
         
             <div class="miv">
             

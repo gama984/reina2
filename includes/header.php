@@ -68,6 +68,7 @@
 			$tag->print_js_tag('main');
 			$tag->print_css_tag('main');
 			
+			
 			//variables idioma
 			$menu        = $_SESSION["texto"]["menu"];
 			$footer      = $_SESSION["texto"]["footer"];

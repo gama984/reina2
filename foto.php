@@ -4,7 +4,10 @@
     
     <!-- Inicia -->
     <div class="contenido">
-    	
+    	<div class="bord bord1"></div>
+        <div class="bord bord2"></div>
+        <div class="bord bord3"></div>
+        <div class="bord bord4"></div>
         <?php
 		
 			include 'includes/listaOp.php';
@@ -19,12 +22,12 @@
 
         <div class="almiv">
         
-        	<div class="paquet">
+        	<!--<div class="paquet">
                 <a href="foto.php" class="pb"> <span class="pbs">paquete basico</span></a>
                 <a href="foto-pe.php" class="pe">paquete especial</a>
                 <a href="foto-mr.php" class="mr">mesa de regalo</a>
 
-            </div>
+            </div>-->
         
             <div class="miv">
             
