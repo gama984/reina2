@@ -15,10 +15,13 @@
 			include 'includes/listaOp.php';
 			$tag->print_img_tag('page/bg.jpg');
 		?>
-    	<div class="almiv">
+    	<div class="almiv almivp">
             <div class="miv">
             
                 <div class="conmiv">
+                	
+                    <div class="bordt bordtnos"></div>
+                    
                 
                     <div class="mision">
                         <p><?= $nosotros[0]?></p>

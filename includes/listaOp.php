@@ -28,11 +28,11 @@
             <ul class="subs">
                 <li><a href="fotografia.php">Fotografia</a></li>
                 <li><a href="#">Video</a></li>
-                <li><a href="retoque.php">Retoque</a></li>
+                <li><a href="retoquep.php">Retoque</a></li>
              
             </ul>
         </li>
-        <li><a href="servicios.php">Servicios</a>
+        <li><a href="#">Servicios</a>
             <ul class="subs">
                 <li><a href="foto.php">Fotografia</a></li>
                 <li><a href="video.php">Video</a></li>
@@ -42,7 +42,17 @@
         </li>
         <li><a href="faq.php">FAQ</a></li>
         <li><a href="contacto.php">Contacto</a></li>
-        <li><a href="proveedores.php.php">Proveedores</a></li>
+        <li><a href="#">Proveedores</a>
+        	 <ul class="subs">
+                <li><a href="#">Florerías</a></li>
+                <li><a href="#">Banquetes</a></li>
+                <li><a href="#">Salones</a></li>
+                <li><a href="#">Sonido</a></li>
+                <li><a href="#">Vestuario</a></li>
+                <li><a href="#">Decoración</a></li>
+             	<li><a href="#">Joyerías</a></li>
+            </ul>
+        </li>
     </ul>
     <div style="clear:both"></div>
 </div>

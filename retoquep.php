@@ -20,7 +20,7 @@
         
         <div class="almiv">
         
-        	<div class="paquet">
+        	<div class="paquet paquetPhot">
                 <a href="#" class="pb-video"><?=$retoquep[2]?></a>
                 <a href="retoquep.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[3]?></span></a>
                 <a href="#" class="mr"><?=$retoquep[4]?></a>

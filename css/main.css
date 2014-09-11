@@ -106,6 +106,7 @@ body{
 *
 *********************************************/
 .almiv{position: absolute;top: 225px;width: 100%;}
+.almivp{ top:280px;}
 .miv{font-size: 22px;min-width: 780px;max-width: 809px;border: solid 2px #FFF;padding: 10px;height: 600px;margin: 0 auto;}
 .conmiv{height: 92%;background:rgba(60, 60, 60, 0.72);padding:25px;text-align:justify;}
 .mision span, .politica span{font-size:18px;}
@@ -262,8 +263,9 @@ body{
 /*.paquet .mr{position: relative;left: 252px;top: -30px;font-size: 18px}*/
 /*************************************seccion video-pe, video-mr,foto,foto-pe***************************/
 .paquet .pb-video{padding: 5px 10% 9px 10%;position: relative;left: -8px;top: 6px;}
-.paquet	 a.pb-video:hover{background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;/*padding: 5px 10% 9px 10%;*/margin-left: 0%;}
+.paquet	 a.pb-video:hover,.paquet  a.mr:hover{background:rgba(0, 136, 204, 0.74); text-decoration:none; color:#FFF;/*padding: 5px 10% 9px 10%;*/margin-left: 0%;}
 .paquet  a.pb-video{padding: 4px 59px 9px 59px;position: relative;left: 0px;top: 6px;font-size: 18px;}
+.paquet  a.mr{padding: 4px 59px 9px 59px;position: relative;left: 6px;top: 6px;font-size: 18px;}
 .paquet .pe-video{ background:rgba(0, 136, 204, 0.74);padding: 3px 10% 16px 8%;position: relative;margin-left: 6px;}
 .paquet .pe-video:hover{text-decoration:none;}
 .paquet .pe-video .pes{position: relative;top: 5px;font-size: 18px;left: 0px; color:#FFF;}
@@ -314,7 +316,7 @@ body{
 }
 .porta{
 	width: 235px;
-	height:202px;
+	height:220px;
 	float: left;
 	border: solid 1px #fff;
 	opacity: 0.5;
@@ -322,11 +324,39 @@ body{
 	overflow:hidden;
 }
 .port{
-	height:81%;
+	height:445px;
 }
 .mivsd{
-	height:500px;
-	margin-top:85px;
+	height:530px;
+	margin-top:55px;
+}
+#infoto{
+	display:none;
+	min-width: 200px;
+	width: 500px;
+	height:650px;
+}
+.wiopo{
+	border:none;
+}
+.wiopo img{
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	margin-top: 20px;
+}
+.poqu{
+	border: solid 2px #FFF;
+	text-align: justify;
+	width: 328px;
+	margin: 0 auto;
+	font-size: 12px;
+	background:#000;
+	padding:10px;
+}
+.poqu span{
+	text-decoration:underline;
+	margin-bottom:5px;
 }
 .bordt{
 	background: url(../img/page/superior.png);
@@ -338,6 +368,9 @@ body{
 	margin-top: -110px;
 	margin-left: 240px;
 }
+.bordtnos{
+	margin-top:-90px;
+}
 .bordb{
 	background: url(../img/page/inferior.png);
 	width: 240px;
@@ -345,11 +378,50 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: absolute;
-	margin-top: 467px;
+	margin-top: 500px;
 	margin-left: 240px;
 }
-
-
+.namep{
+	font-family: jey;
+	text-align: center;
+	display: block;
+	font-size: 50px;
+}
+.paquetPhot{
+	width: 753px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	background: rgba(0, 0, 0, 0.41);
+	height: 36px;
+}
+.infoFoto{
+	width: 328px;
+	margin: 0 auto;
+}
+.ws, .we, .wesr{
+	display:block;
+	font-size:12px;
+}
+.ws{
+	float:left;
+}
+.we{
+	float:right;
+	margin-right:70px;
+}
+.lente{
+	margin-left: 120px;
+	position: absolute;
+	margin-top: -20px;
+}
+.wesr{
+	text-align:center;
+	font-size:15px;
+	margin-top: -10px;
+}
+.both{
+	clear:both;
+}
 /*********************************************
 *
 * Politica

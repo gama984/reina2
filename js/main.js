@@ -30,4 +30,9 @@ $(document).ready(function(e) {
 		$('.opL').toggle();
 	});
 	
+	$('#porta5').click(function(){
+		$('.mivsd').hide();
+		$('#infoto').show();
+	});
+	
 });
