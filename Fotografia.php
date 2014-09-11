@@ -17,6 +17,7 @@
 		?>
     	
         <div class="almiv">
+        
             <div class="miv mivsd">
             
                 <div class="conmiv portafoto port">
@@ -35,6 +36,46 @@
                 </div>
             
             </div>
+            
+            <!-- Info Fotigrafo -->
+            <div class="miv" id="infoto">    
+                <div class="conmiv portafoto wiopo">
+                    
+                    <span class="namep">Nombre del Fotógrafo</span>
+                    <?=$tag->print_img_tag('porta_foto/pre/5.jpg');?>
+                    
+                    <div class="poqu">
+                    	<span>Un poquito de mi</span><br>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
+                    </div>
+                    
+                    <div class="infoFoto">
+                    
+                    	<span class="ws">
+                        	Mi equipo de Trabajo: <br>
+                            Idiomas que domino: <br>
+                            Años de experiencia: <br>
+                        </span>
+                        
+                        <span class="we">
+                        	Camara: XXXXXX  <p class="lente">Lente: XXXXXX</p> <br>
+                            Ingles, Español, Frances<br>
+                            5 años de esperiencia
+                        </span>
+                        
+                        <div class="both"></div>
+                        
+                        <span class="wesr">
+                        	<br>
+                        	Experiencia en el Campo
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
         
     </div>
