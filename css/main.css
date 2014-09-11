@@ -382,7 +382,7 @@ body{
 	border: solid 1px #fff;
 }
 
-/*****menu de prueba *****/
+/*****nuevo menu *****/
 .option{margin: 0 auto;text-align: left;width: 794px;}
 .nav,.nav ul {list-style:none;margin:0;padding:0;}
 .nav {position:absolute;z-index: 11111;}
@@ -391,53 +391,86 @@ body{
 .nav li a {-moz-transition:0.4s;-o-transition:0.4s;-webkit-transition:0.4s;background-color:/*#7770B4*/rgba(0, 0, 0, 0.41);border:1px solid rgba(0, 0, 0, 0.41);color:#FFF;display:block;font-size:16px;line-height:35px;padding:5px 20px;text-decoration:none;transition:0.4s; text-align: center;}
 .nav li:hover > a {background:rgba(0, 136, 204, 0.74);border-color:rgba(0, 136, 204, 0.94);color:#fff;}
 
-.nav li:hover ul.subs {
-    height:auto;
-    width:180px;
+.nav li:hover ul.subs {height:auto;width:180px;}
+.nav ul li { -moz-transition:0.4s; -o-transition:0.4s;-webkit-transition:0.4s; opacity:0; transition:0.4s; width:100%;}
+.nav li ul li { -moz-transition-delay:0s; -o-transition-delay:0s; -webkit-transition-delay:0s;transition-delay:0s;}
+.nav li:hover ul li {opacity:1; -moz-transition-delay:0.4s; -o-transition-delay:0.4s;-webkit-transition-delay:0.4s;transition-delay:0.4s;}
+.nav ul li a {background:rgba(0, 0, 0, 0.94);border-color:rgba(0, 0, 0, 0.41);color:#fff;line-height:1px;-moz-transition:1.5s;-o-transition:1.5s;-webkit-transition:1.5s;transition:1.5s;}
+.nav li:hover ul li a {line-height:35px;}
+.nav ul li a:hover {/*background:#8CCA33;*/background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));background-image: -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));}
+
+/******************** menu de los paquetes **********************/
+
+.contt{
+width: 471px;
+height: 230px;
+transform: rotate(-90deg);
+z-index: 11111;
+position: absolute;
+top: 422px;
+left: -116px;
 }
 
-.nav ul li {
-    -moz-transition:0.4s;
-    -o-transition:0.4s;
-    -webkit-transition:0.4s;
-    opacity:0;
-    transition:0.4s;
-    width:100%;
+div.contenedor{
+width: 116px;
+height: 217px;
+float: left;
+-webkit-transition: height .4s;
 }
 
-.nav li ul li {
-    -moz-transition-delay:0s;
-    -o-transition-delay:0s;
-    -webkit-transition-delay:0s;
-    transition-delay:0s;
+/*div#uno{
+	background-color: rgb(208,101,3);
 }
 
-.nav li:hover ul li {
-    opacity:1;
-    -moz-transition-delay:0.4s;
-    -o-transition-delay:0.4s;
-    -webkit-transition-delay:0.4s;
-    transition-delay:0.4s;
+div#dos{
+	background-color: rgb(233,147,26);
 }
 
-.nav ul li a {
-    background:rgba(0, 0, 0, 0.94);
-    border-color:rgba(0, 0, 0, 0.41);
-    color:#fff;
-    line-height:1px;
-    -moz-transition:1.5s;
-    -o-transition:1.5s;
-    -webkit-transition:1.5s;
-    transition:1.5s;
+div#tres{
+	background-color: rgb(22,145,190);
+}*/
+
+div#cuatro{
+	background-color: rgb(22,107,162);
 }
 
-.nav li:hover ul li a {
-    line-height:35px;
+div#cinco{
+	background-color: rgb(27,54,71);
 }
 
-.nav ul li a:hover {
-    /*background:#8CCA33;*/
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
-    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    background-image: -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+font-size: 1.2em;
+color: white;
+text-align: -webkit-center;
+padding-top: 0px;
+opacity: .6;
+-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }

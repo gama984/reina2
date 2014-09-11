@@ -15,10 +15,7 @@
 			
 		?>
     	
-        
 
-        
-       
 
         <div class="almiv">
         
@@ -28,7 +25,8 @@
                 <a href="foto-mr.php" class="mr">mesa de regalo</a>
 
             </div>-->
-        
+
+
             <div class="miv">
             
                 <div class="conmiv pq12">
