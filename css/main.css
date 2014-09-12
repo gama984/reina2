@@ -397,6 +397,8 @@ body{
 .infoFoto{
 	width: 328px;
 	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.50);
+	padding: 10px;
 }
 .ws, .we, .wesr{
 	display:block;
@@ -421,6 +423,28 @@ body{
 }
 .both{
 	clear:both;
+}
+.porcien{
+	font-size: 12px;
+	background: -webkit-linear-gradient(left, rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* Standard syntax */
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	border-radius: 50px;
+}
+.circlef{
+	border-radius: 50px;
+	float: right;
+	width: 31px;
+	text-align: right;
+	padding-right: 5px;
+	background: -webkit-linear-gradient(left, rgba(1, 168, 255, 0.21) , #01a8ff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,  rgba(1, 168, 255, 0.21) , #01a8ff)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  rgba(1, 168, 255, 0.21) , #01a8ff)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  rgba(1, 168, 255, 0.21) , #01a8ff))); /* Standard syntax */
 }
 /*********************************************
 *
