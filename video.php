@@ -18,12 +18,11 @@
     	
         
         <div class="almiv">
-        
-        	<!--<div class="paquet">
-                <a href="video.php" class="pb"> <span class="pbs">paquete basico</span></a>
-                <a href="video-pe.php" class="pe">paquete especial</a>
-                <a href="video-mr.php" class="mr">mesa de regalo</a>
-              </div>-->
+          	<div class="paquet paquetPhot">
+                <a href="video.php" class="pb-video"><?=$retoquep[2]?></a>
+                <a href="video-pe.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[3]?></span></a>
+                <a href="video-mr.php" class="mr"><?=$retoquep[4]?></a>
+            </div>
         	
             <div class="miv">
             
