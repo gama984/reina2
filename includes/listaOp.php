@@ -1,60 +1,35 @@
-<!--<div class="option">-->
-	<!--<div class="menOp">Menu <div class="flec"></div></div>
-    <ul class="opL">
-        <li><a href="nosotros.php"><div class="nos"> Nosotros</div></a></li>
-        <li ><a href="#" ><div class="port" >Portafolios</div><div class="flettt"></div></a>
-        	<ul>
-            	<li><a href="fotografia.php">Fotografia</a></li>
-           		<li><a href="#">Video</a></li>
-            	<li><a href="retoquep.php">Retoque</a></li>
-            </ul>
-            
-          </li>
-        <li><a href="servicios.php"> <div class="s">Servicios</div><div class="flett"></div></a>
-        	<ul>
-            	<li><a href="foto.php">Fotografia</a></li>
-           		<li><a href="video.php">Video</a></li>
-            	<li><a href="retoque.php">Retoque</a></li>
-            </ul>
-        </li>
-        <li><a href="faq.php"> <div class="faq">FAQ</div></a></li>
-        <li><a href="contacto.php"> <div class="cont"> Contacto</div></a></li>
-        <li><a href="proveedores.php"> <div class="prov">Proveedores</div></a></li>
-    </ul>-->
-    <div class="option">
+<div class="option">
     <ul class="nav">
-        <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="#">Portafolios</a>
+        <li><a href="nosotros.php"><?=$menu[1]?></a></li>
+        <li><a href="#"><?=$menu[2]?></a>
             <ul class="subs">
-                <li><a href="fotografia.php">Fotografia</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="retoquep.php">Retoque</a></li>
+                <li><a href="fotografia.php"><?=$menu[4]?></a></li>
+                <li><a href="#"><?=$menu[5]?></a></li>
+                <li><a href="retoquep.php"><?=$menu[6]?></a></li>
              
             </ul>
         </li>
-        <li><a href="#">Servicios</a>
+        <li><a href="#"><?=$menu[3]?></a>
             <ul class="subs">
-                <li><a href="foto.php">Fotografia</a></li>
-                <li><a href="video.php">Video</a></li>
-                <li><a href="retoque.php">Retoque</a></li>
+                <li><a href="foto.php"><?=$menu[4]?></a></li>
+                <li><a href="video.php"><?=$menu[5]?></a></li>
+                <li><a href="retoque.php"><?=$menu[6]?></a></li>
              
             </ul>
         </li>
-        <li><a href="faq.php">FAQ</a></li>
-        <li><a href="contacto.php">Contacto</a></li>
-        <li><a href="#">Proveedores</a>
+        <li><a href="faq.php"><?=$menu[7]?></a></li>
+        <li><a href="contacto.php"><?=$menu[8]?></a></li>
+        <li><a href="#"><?=$menu[9]?></a>
         	 <ul class="subs">
-                <li><a href="#">Florerías</a></li>
-                <li><a href="#">Banquetes</a></li>
-                <li><a href="#">Salones</a></li>
-                <li><a href="#">Sonido</a></li>
-                <li><a href="#">Vestuario</a></li>
-                <li><a href="#">Decoración</a></li>
-             	<li><a href="#">Joyerías</a></li>
+                <li><a href="#"><?=$menu[10]?></a></li>
+                <li><a href="#"><?=$menu[11]?></a></li>
+                <li><a href="#"><?=$menu[12]?></a></li>
+                <li><a href="#"><?=$menu[13]?></a></li>
+                <li><a href="#"><?=$menu[14]?></a></li>
+                <li><a href="#"><?=$menu[15]?></a></li>
+             	<li><a href="#"><?=$menu[16]?></a></li>
             </ul>
         </li>
     </ul>
     <div style="clear:both"></div>
 </div>
-
-<!--</div>-->
