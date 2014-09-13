@@ -37,9 +37,11 @@
             
             </div>
             
-            <!-- Info Fotigrafo -->
+            <!-- Info Fotografo -->
             <div class="miv" id="infoto">    
                 <div class="conmiv portafoto wiopo">
+                    
+                    <div class="backp">Atras</div>
                     
                     <span class="namep">Nombre del Fotógrafo</span>
                     <?=$tag->print_img_tag('porta_foto/pre/5.jpg');?>
@@ -59,7 +61,7 @@
                         </span>
                         
                         <span class="we">
-                        	Camara: XXXXXX  <p class="lente">Lente: XXXXXX</p> <br>
+                        	Camara: XXXXXX  -    Lente: XXXXXX<!-- <p class="lente">Lente: XXXXXX</p>--> <br>
                             Ingles, Español, Frances<br>
                             5 años de esperiencia
                         </span>
@@ -70,14 +72,27 @@
                         	<br>
                         	Experiencia en el Campo
                             
-                            <div class="Bodasy porcien">Bodas y Eventos Sociales <div class="circlef"></div><div class="circlef">200</div> </div>
-                            <div class="fotogroup porcien">Fotografías de Grupos <div class="circlef"></div><div class="circlef">200</div> </div>
+                            <div class="porcien Bodasy">Bodas y Eventos Sociales <div class="circlef"></div><div class="circlef">200</div> </div>
+                            <div class="porcien fotogroup">Fotografías de Grupos <div class="circlef"></div><div class="circlef">160</div> </div>
+                            <div class="porcien cenote">Cenote <div class="circlef"></div><div class="circlef">120</div> </div>
+                            <div class="porcien acuatica">Acuaticas/Submarinas <div class="circlef"></div><div class="circlef">70</div> </div>
+                            <div class="porcien trash">Trash the dress <div class="circlef"></div><div class="circlef">160</div> </div>
+                            <div class="porcien boudoir">Boudoir/Desnudos <div class="circlef"></div><div class="circlef">110</div> </div>
+                            <div class="porcien conceptual">Conceptual <div class="circlef"></div><div class="circlef">180</div> </div>
+                            <div class="porcien publicitaria">Publicitaria <div class="circlef"></div><div class="circlef">90</div> </div>
+                            <div class="porcien deportes">Deportes Extremos <div class="circlef"></div><div class="circlef">180</div> </div>
+                            
                         </span>
+                        
+                       <div class="trabajo">Mi trabajo</div>
+                       <?=$tag->print_img_tag('calendario/estatico.png','calendario');?>
                         
                     </div>
                     
                 </div>
             </div>
+            
+            <!-- Termina info Fotografo -->
             
         </div>
         

@@ -310,6 +310,7 @@ body{
 }
 .wiopo{
 	border:none;
+	overflow:auto;
 }
 .wiopo img{
 	display: block;
@@ -381,7 +382,6 @@ body{
 }
 .we{
 	float:right;
-	margin-right:70px;
 }
 .lente{
 	margin-left: 120px;
@@ -418,6 +418,32 @@ body{
     background: -moz-linear-gradient(right,  rgba(1, 168, 255, 0.21) , #01a8ff)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right,  rgba(1, 168, 255, 0.21) , #01a8ff))); /* Standard syntax */
 }
+.backp{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -25px;
+	width: 85px;
+	background: #01a8ff;
+	height: 20px;
+	font-size: 17px;
+	text-align: center;
+	cursor:pointer;
+}
+.trabajo{
+	width: 85px;
+	background: rgba(1, 168, 255, 0.8);
+	height: 20px;
+	font-size: 17px;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.calendario{
+	width:20px !important;
+	float:right;
+	margin-top:-20px !important;
+}
 /*********************************************
 *
 * Politica
@@ -450,6 +476,17 @@ body{
 	border: solid 1px #fff;
 }
 
+
+.wiopo::-webkit-scrollbar-track{
+	border-right: solid 1px;
+}
+.wiopo::-webkit-scrollbar{
+	width: 10px
+}
+.wiopo::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	border: solid 1px #fff;
+}
 /*****nuevo menu *****/
 .option{margin: 0 auto;text-align: left;width: 794px;}
 .nav,.nav ul {list-style:none;margin:0;padding:0;}

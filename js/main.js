@@ -30,6 +30,12 @@ $(document).ready(function(e) {
 		$('.opL').toggle();
 	});
 	
+	$('.backp').click(function(){
+		$('.mivsd').show();
+		$('#infoto').hide();
+	});
+	
+	// funcion para mostrar info de fotografo
 	$('#porta5').click(function(){
 		$('.mivsd').hide();
 		$('#infoto').show();
