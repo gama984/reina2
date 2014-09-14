@@ -36,3 +36,16 @@ $(document).ready(function(e) {
 	});
 	
 });
+
+
+/*ducumento de fqa*/
+
+document.write('<style type="text/css">p.p2{display: none;}</style>');  
+function MostrarOcultar(capa,enlace)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+}

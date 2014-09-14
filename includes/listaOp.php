@@ -44,13 +44,13 @@
         <li><a href="contacto.php">Contacto</a></li>
         <li><a href="#">Proveedores</a>
         	 <ul class="subs">
-                <li><a href="#">Florerías</a></li>
-                <li><a href="#">Banquetes</a></li>
-                <li><a href="#">Salones</a></li>
-                <li><a href="#">Sonido</a></li>
-                <li><a href="#">Vestuario</a></li>
-                <li><a href="#">Decoración</a></li>
-             	<li><a href="#">Joyerías</a></li>
+                <li><a href="flor.php">Florerías</a></li>
+                <li><a href="banque.php">Banquetes</a></li>
+                <li><a href="salon.php">Salones</a></li>
+                <li><a href="sonido.php">Sonido</a></li>
+                <li><a href="vestu.php">Vestuario</a></li>
+                <li><a href="decora.php">Decoración</a></li>
+             	<li><a href="joye.php">Joyerías</a></li>
             </ul>
         </li>
     </ul>
