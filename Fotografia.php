@@ -69,6 +69,9 @@
                         <span class="wesr">
                         	<br>
                         	Experiencia en el Campo
+                            
+                            <div class="Bodasy porcien">Bodas y Eventos Sociales <div class="circlef"></div><div class="circlef">200</div> </div>
+                            <div class="fotogroup porcien">Fotografías de Grupos <div class="circlef"></div><div class="circlef">200</div> </div>
                         </span>
                         
                     </div>

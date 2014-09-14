@@ -369,6 +369,8 @@ body{
 .infoFoto{
 	width: 328px;
 	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.50);
+	padding: 10px;
 }
 .ws, .we, .wesr{
 	display:block;
@@ -393,6 +395,28 @@ body{
 }
 .both{
 	clear:both;
+}
+.porcien{
+	font-size: 12px;
+	background: -webkit-linear-gradient(left, rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  rgba(1, 168, 255, 0.81) , rgba(1, 168, 255, 0.11)); /* Standard syntax */
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	border-radius: 50px;
+}
+.circlef{
+	border-radius: 50px;
+	float: right;
+	width: 31px;
+	text-align: right;
+	padding-right: 5px;
+	background: -webkit-linear-gradient(left, rgba(1, 168, 255, 0.21) , #01a8ff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,  rgba(1, 168, 255, 0.21) , #01a8ff)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  rgba(1, 168, 255, 0.21) , #01a8ff)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  rgba(1, 168, 255, 0.21) , #01a8ff))); /* Standard syntax */
 }
 /*********************************************
 *
@@ -438,8 +462,8 @@ body{
 .nav li:hover ul.subs {height:auto;width:180px;}
 .nav ul li { /*-moz-transition:0.4s; -o-transition:0.4s;-webkit-transition:0.4s;*/ opacity:0; /*transition:0.4s;*/ width:100%;}
 .nav li ul li { /*-moz-transition-delay:0s; -o-transition-delay:0s; -webkit-transition-delay:0s;transition-delay:0s;*/}
-.nav li:hover ul li {opacity:1; -moz-transition-delay:0.4s; -o-transition-delay:0.4s;-webkit-transition-delay:0.4s;transition-delay:0.4s;}
-.nav ul li a {background:rgba(0, 0, 0, 0.94);border-color:rgba(0, 0, 0, 0.41);color:#fff;line-height:1px;-moz-transition:1.5s;-o-transition:1.5s;-webkit-transition:1.5s;transition:1.5s;}
+.nav li:hover ul li {opacity:1; -moz-transition-delay:0.1s; -o-transition-delay:0.1s;-webkit-transition-delay:0.4s;transition-delay:0.1s;}
+.nav ul li a {background:rgba(0, 0, 0, 0.94);border-color:rgba(0, 0, 0, 0.41);color:#fff;line-height:1px;-moz-transition:0.5s;-o-transition:0.5s;-webkit-transition:1.5s;transition:0.5s;}
 .nav li:hover ul li a {line-height:35px;}
 .nav ul li a:hover {/*background:#8CCA33;*/background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));background-image: -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));}
 

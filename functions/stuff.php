@@ -19,6 +19,7 @@ function texto(){
 	$_SESSION["texto"]["portafolios"]=array();
 	$_SESSION["texto"]["politicas"]=array();
 	$_SESSION["texto"]["retoquep"]=array();
+	$_SESSION["texto"]["faq"]=array();
 	
 	$conn = new consultas();
 	$txt = $conn->all('page_text');
@@ -44,6 +45,9 @@ function texto(){
 							break;
 			case "retoquep": $pos=count($_SESSION["texto"]["retoquep"]);
 							$_SESSION["texto"]["retoquep"][$pos]=$row["texto_".$_SESSION['idioma']];
+							break;
+			case "faq": $pos=count($_SESSION["texto"]["faq"]);
+							$_SESSION["texto"]["faq"][$pos]=$row["texto_".$_SESSION['idioma']];
 							break;
 			default:		$_SESSION["texto"][$row["name"]]=$row["texto_".$_SESSION['idioma']];
 							break;
