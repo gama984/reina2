@@ -23,7 +23,7 @@
                     <div class="tc4">
                         <div class="tc-3">
                              <div class="contpa">
-                                <?php $faq[0] ?>
+                                <?php //$faq[0] ?>
                                 
                                 <!-- Inicia -->
                                 

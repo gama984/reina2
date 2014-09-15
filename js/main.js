@@ -19,7 +19,6 @@ $(document).ready(function(e) {
 	setTimeout(function(){$('.loading').html("<img src='img/barra_carga/3.png'/>");}, 600);
 	setTimeout(function(){$('.loading').html("<img src='img/barra_carga/4.png'/>");}, 800);
 	setTimeout(function(){$('.loading').html("<img src='img/barra_carga/5.png'/>");}, 1000);
-	//setTimeout(function(){$('.loading').html("");}, 900);
 	
 	$(window).load(function(){
 	  setTimeout(function(){$('.loading').html("");}, 1200);
@@ -35,10 +34,33 @@ $(document).ready(function(e) {
 		$('#infoto').hide();
 	});
 	
-	// funcion para mostrar info de fotografo
-	$('#porta5').click(function(){
-		$('.mivsd').hide();
-		$('#infoto').show();
-	});
+	// fotografo
+	$('.porta').click(function(){
+		var id = $(this).attr("id");
+		$.post('functions/do.php',{ id : id, n : 1},function(data){
+			if( data != 0 ){
+				$('.mivsd').hide();
+				$('#infoto').show();
+				$('.imgpg').attr('src' , 'img/porta_foto/pre/'+data.id+'.jpg' );
+				$('.trabajo').attr('id' , data.id );
+				$('#myname').text(data.nombre);
+				$('#aboutme').text(data.about);
+				$('#mycamara').text(data.camara);
+				$('#mylente').text(data.lente);
+				$('#myidioma').text(data.idioma);
+				$('#myan').text(data.experiencia);
+				$('#mybo').text(data.boda);
+				$('#mygr').text(data.grupo);
+				$('#myce').text(data.cenote);
+				$('#myac').text(data.acuatica);
+				$('#mytr').text(data.trash);
+				$('#mybu').text(data.boudoir);
+				$('#myco').text(data.conceptual);
+				$('#mypu').text(data.publicitaria);
+				$('#myde').text(data.deporte);
+			};
+		},'json');
+	});	
+	
 	
 });
