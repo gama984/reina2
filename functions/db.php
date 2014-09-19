@@ -14,28 +14,28 @@ class consultas{
 	
 	public $lastID;
 	
-	function __construct(){		
-		/*** mysql hostname ***/
-		$this->hostname = '127.0.0.1';
-		/*** mysql username ***/
-		$this->username = 'root';
-		/*** mysql password ***/
-		$this->password = 'ivanpoot';
-		/*** mysql BD ***/
-		$this->bd= 'peacock';
-		$this->lastID= 0;
-	}
-//		function __construct(){		
+//	function __construct(){		
 //		/*** mysql hostname ***/
 //		$this->hostname = '127.0.0.1';
 //		/*** mysql username ***/
 //		$this->username = 'root';
 //		/*** mysql password ***/
-//		$this->password = '';
+//		$this->password = 'ivanpoot';
 //		/*** mysql BD ***/
 //		$this->bd= 'peacock';
 //		$this->lastID= 0;
 //	}
+		function __construct(){		
+		/*** mysql hostname ***/
+		$this->hostname = '127.0.0.1';
+		/*** mysql username ***/
+		$this->username = 'root';
+		/*** mysql password ***/
+		$this->password = '';
+		/*** mysql BD ***/
+		$this->bd= 'peacock';
+		$this->lastID= 0;
+	}
 	
 	private function conectar(){
 		try {

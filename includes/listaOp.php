@@ -21,13 +21,16 @@
         <li><a href="contacto.php"><?=$menu[8]?></a></li>
         <li><a href="#"><?=$menu[9]?></a>
         	 <ul class="subs">
-                <li><a href="#"><?=$menu[10]?></a></li>
-                <li><a href="#"><?=$menu[11]?></a></li>
-                <li><a href="#"><?=$menu[12]?></a></li>
-                <li><a href="#"><?=$menu[13]?></a></li>
-                <li><a href="#"><?=$menu[14]?></a></li>
-                <li><a href="#"><?=$menu[15]?></a></li>
-             	<li><a href="#"><?=$menu[16]?></a></li>
+          
+
+                <li><a href="flor.php"><?=$menu[10]?></a></li>
+                <li><a href="banque.php"><?=$menu[11]?></a></li>
+                <li><a href="salon.php"><?=$menu[12]?></a></li>
+                <li><a href="sonido.php"><?=$menu[13]?></a></li>
+                <li><a href="vestu.php"><?=$menu[14]?></a></li>
+                <li><a href="decora.php"><?=$menu[15]?></a></li>
+             	<li><a href="joye.php"><?=$menu[16]?></a></li>
+
             </ul>
         </li>
     </ul>

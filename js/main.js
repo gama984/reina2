@@ -34,6 +34,7 @@ $(document).ready(function(e) {
 		$('#infoto').hide();
 	});
 	
+<<<<<<< HEAD
 	// fotografo
 	$('.porta').click(function(){
 		var id = $(this).attr("id");
@@ -64,3 +65,19 @@ $(document).ready(function(e) {
 	
 	
 });
+=======
+});
+
+
+/*ducumento de fqa*/
+
+document.write('<style type="text/css">p.p2{display: none;}</style>');  
+function MostrarOcultar(capa,enlace)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+}
+>>>>>>> eeeb9f65f820b0339f5d434fbbe07f88ab60a76f
