@@ -25,59 +25,73 @@
                     <div class="bordt"></div>
                     <div class="bordb"></div>
                 
-                    <div class="porta" id="porta1"><?=$tag->print_img_tag('porta_foto/1.jpg');?></div>
-                    <div class="porta" id="porta2"><?=$tag->print_img_tag('porta_foto/2.jpg');?></div>
-                    <div class="porta" id="porta3"><?=$tag->print_img_tag('porta_foto/3.jpg');?></div>
+                    <div class="porta" id="5"><?=$tag->print_img_tag('porta_foto/all/1.jpg');?></div>
+                    <div class="porta" id="2"><?=$tag->print_img_tag('porta_foto/all/2.jpg');?></div>
+                    <div class="porta" id="3"><?=$tag->print_img_tag('porta_foto/all/3.jpg');?></div>
                     
-                    <div class="porta" id="porta4"><?=$tag->print_img_tag('porta_foto/4.jpg');?></div>
-                    <div class="porta" id="porta5" style="opacity:1;"><?=$tag->print_img_tag('porta_foto/5.jpg');?></div>
-                    <div class="porta" id="porta6"><?=$tag->print_img_tag('porta_foto/6.jpg');?></div>
+                    <div class="porta" id="4"><?=$tag->print_img_tag('porta_foto/all/4.jpg');?></div>
+                    <div class="porta" id="1" style="opacity:1;"><?=$tag->print_img_tag('porta_foto/all/5.jpg');?></div>
+                    <div class="porta" id="6"><?=$tag->print_img_tag('porta_foto/all/6.jpg');?></div>
                     
                 </div>
             
             </div>
             
-            <!-- Info Fotigrafo -->
+            <!-- Info Fotografo -->
             <div class="miv" id="infoto">    
                 <div class="conmiv portafoto wiopo">
                     
-                    <span class="namep">Nombre del Fotógrafo</span>
-                    <?=$tag->print_img_tag('porta_foto/pre/5.jpg');?>
+                    <div class="backp"><?=$portafolio[0]?></div>
+                    
+                    <span class="namep" id="myname">*</span>
+                    <?=$tag->print_img_tag('porta_foto/pre/5.jpg','imgpg');?>
                     
                     <div class="poqu">
-                    	<span>Un poquito de mi</span><br>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
+                    	<span id="myabout"><?=$portafolio[1]?></span><br>
+                        <span id="aboutme">*</span>
                     </div>
                     
                     <div class="infoFoto">
                     
                     	<span class="ws">
-                        	Mi equipo de Trabajo: <br>
-                            Idiomas que domino: <br>
-                            Años de experiencia: <br>
+                        	<?=$portafolio[2]?>: <br>
+                            <?=$portafolio[5]?>: <br>
+                            <?=$portafolio[6]?>: <br>
                         </span>
                         
                         <span class="we">
-                        	Camara: XXXXXX  <p class="lente">Lente: XXXXXX</p> <br>
-                            Ingles, Español, Frances<br>
-                            5 años de esperiencia
+                        	 <?=$portafolio[3]?>: <span id="mycamara">*</span> -  <?=$portafolio[4]?>: <span id="mylente">*</span><br>
+                            <span id="myidioma">*</span><br>
+                            <span id="myan">*</span> <?=$portafolio[8]?>
                         </span>
                         
                         <div class="both"></div>
                         
                         <span class="wesr">
                         	<br>
-                        	Experiencia en el Campo
+                        	 <?=$portafolio[7]?>
                             
-                            <div class="Bodasy porcien">Bodas y Eventos Sociales <div class="circlef"></div><div class="circlef">200</div> </div>
-                            <div class="fotogroup porcien">Fotografías de Grupos <div class="circlef"></div><div class="circlef">200</div> </div>
+                            <div class="porcien Bodasy">Bodas y Eventos Sociales <div class="circlef"></div><div class="circlef" id="mybo">*</div> </div>
+                            <div class="porcien fotogroup">Fotografías de Grupos <div class="circlef"></div><div class="circlef" id="mygr">*</div> </div>
+                            <div class="porcien cenote">Cenote <div class="circlef"></div><div class="circlef" id="myce">*</div> </div>
+                            <div class="porcien acuatica">Acuaticas/Submarinas <div class="circlef"></div><div class="circlef" id="myac">*</div> </div>
+                            <div class="porcien trash">Trash the dress <div class="circlef"></div><div class="circlef" id="mytr">*</div> </div>
+                            <div class="porcien boudoir">Boudoir/Desnudos <div class="circlef"></div><div class="circlef" id="mybu">*</div> </div>
+                            <div class="porcien conceptual">Conceptual <div class="circlef"></div><div class="circlef" id="myco">*</div> </div>
+                            <div class="porcien publicitaria">Publicitaria <div class="circlef"></div><div class="circlef" id="mypu">*</div> </div>
+                            <div class="porcien deportes">Deportes Extremos <div class="circlef"></div><div class="circlef" id="myde">*</div> </div>
+                            
                         </span>
+                        
+                       <div class="trabajo" id="0">Mi trabajo</div>
+                       <?=$tag->print_img_tag('calendario/estatico.png','calendario');?>
                         
                     </div>
                     
                 </div>
             </div>
+            
+            <!-- Termina info Fotografo -->
             
         </div>
         
