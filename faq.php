@@ -16,9 +16,6 @@
     	
         <div class="almiv">
             <div class="miv">
-            
-            
-            
                 <div class="conmiv pq12">
                 <div class="tc4">
                 <div class="tc-3">
@@ -98,16 +95,13 @@
             	</div>
                 
     </div>
-    
-
-                    
+  
                 </div>
-            
-            
-            
+
             </div>
         </div>
         
+    </div>
     </div>
     <!-- Fin -->
 
