@@ -25,9 +25,10 @@
             </div>-->
             <div class="paquet paquetPhot">
                 <a href="foto.php" class="pb-video"><?=$retoquep[2]?></a>
-                <a href="foto-pe.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[3]?></span></a>
-                <a href="foto-mr.php" class="mr"><?=$retoquep[4]?></a>
+                <a href="foto-pe.php" class="pb-video" ><?=$retoquep[3]?></a>
+                <a href="foto-mr.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[4]?></span></a>
             </div>
+            
             <div class="miv">
             
                 <div class="conmiv">

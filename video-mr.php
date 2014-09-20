@@ -24,10 +24,11 @@
                 <a href="video-pe.php" class="pe">paquete especial</a>
                 <a href="video-mr.php" class="mr-video"> <span class="mrs">mesa de regalo</span></a>
             </div>-->
-        	<div class="paquet paquetPhot">
+    
+            <div class="paquet paquetPhot">
                 <a href="video.php" class="pb-video"><?=$retoquep[2]?></a>
-                <a href="video-pe.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[3]?></span></a>
-                <a href="video-mr.php" class="mr"><?=$retoquep[4]?></a>
+                <a href="video-pe.php" class="pb-video" ><?=$retoquep[3]?></a>
+                <a href="video-mr.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[4]?></span></a>
             </div>
             <div class="miv">
             
