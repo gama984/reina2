@@ -24,7 +24,11 @@
                 <a href="foto-pe.php" class="pe-video"><span class="pes">paquete especial</span></a>
                 <a href="foto-mr.php" class="mr">mesa de regalo</a>
             </div>-->
-        
+          	<div class="paquet paquetPhot">
+                <a href="foto.php" class="pb-video"><?=$retoquep[2]?></a>
+                <a href="foto-pe.php" class="pe-video" style="padding: 3px 6% 16px 6%;"><span class="pes"><?=$retoquep[3]?></span></a>
+                <a href="foto-mr.php" class="mr"><?=$retoquep[4]?></a>
+            </div>
             <div class="miv">
             
                 <div class="conmiv pq12">
@@ -102,6 +106,7 @@
                 </div>
             
             </div>
+        </div>
         </div>
     </div>
     <!-- Fin -->
